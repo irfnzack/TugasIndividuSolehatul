@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other Diha's Website</title>
+    <style>
+        body {
+            background-color: #f2ece7;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #d6c3ab;
+            color: #212b0f;
+            padding: 20px;
+            text-align: center;
+            font-style: italic;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 0.5rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center; 
+        }
+
+        main h1 {
+            margin-top: 0;
+        }
+
+        main p {
+            margin-bottom: 1rem;
+        }
+
+        main iframe,
+        main video {
+            width: 100%; 
+            max-width: 560px; 
+            height: 315px; 
+            margin-bottom: 20px; 
+        }
+
+        footer {
+            background-color: #d6c3ab;
+            color: #212b0f;
+            padding: 30px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section id="Others">
+            <h1>Others</h1>
+        </section>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="introduction.html">Introduction</a></li>
+            <li><a href="hobbies 1.html">Hobbies</a></li>
+            <li><a href="activities.html">Activities</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Random</h1>
+        <p>Aside from pastry baking, I enjoy music, hiking, travel, food tasting, photography, and shopping.</p>
+
+        <p>This is one of my favorite playlists!:</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yv9tHBvyA4M" frameborder="0" allowfullscreen></iframe>
+
+        <p>Here's another interesting video me with my bestfwend:</p>
+        
+        
+        <video controls width="560" height="315">
+            <source src="fwen.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </main>
+
+    <footer>
+        <p>Copyright © 2024 Solehatul Madihah</p>
+    </footer>
+</body>
+</html>

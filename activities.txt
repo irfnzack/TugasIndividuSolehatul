@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activities - Diha's Website</title>
+    <style>
+        body {
+            background-color: #f2ece7;
+            font-family: 'Roboto', sans-serif;
+            margin: 0; 
+            padding: 0; 
+        }
+
+        header {
+            background-color: #d6c3ab;
+            color: #212b0f;
+            padding: 20px;
+            text-align: center;
+            font-style: italic;
+        }
+
+        nav {
+            background-color: #555;
+            padding: 0.5rem;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center; 
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        main h1 {
+            margin-top: 0;
+        }
+
+        main p {
+            margin-bottom: 1rem;
+        }
+
+        main img {
+            max-width: 100%;
+            height: auto;
+            display: block; 
+            margin: 0 auto 1rem; 
+        }
+
+        footer {
+            background-color: #d6c3ab;
+            color: #212b0f;
+            padding: 30px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Activities</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="introduction.html">Introduction</a></li> 
+            <li><a href="hobbies 1.html">Hobbies</a></li>
+            <li><a href="others.html">Others</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <h1>My Commitment</h1>
+        <p>I am a member of the highest committee for the Mahasiswa Anak Jati Johor UTHM (MAHAJJ), as well as an active participant in the Uthm volunteer club (KSU). Various activities or programmes in which I was directly involved in the organised programme. I've also organised a variety of programmes, including Program Bual Bicara: Ilmu atau Famous (FESTKON UTHM 23), Mahajj Explore 1.0: Hiking Bukit Banang, Misi Banjir Empati X Mahajj, Mahajj Awareness 2.0: Sentuhan Ikhlas, Edaran Bubur Lambuk and others. Now, I'm preparing for numerous exciting programmes this semester and next semester.</p>
+        
+        <button id="viewActivitiesImages" onclick="toggleImageGallery()">View Images</button>
+        <div id="activitiesImageGallery" style="display:none;">
+            <img src="gambar 2.jpg" width="300" height="265"> 
+            <img src="gambar 3.jpg" width="300" height="265">
+            <img src="gambar 4.jpg" width="300" height="265">
+        </div>
+        
+        <p> This is a video of the Program Bual Bicara: Ilmu atau Famous Programme held by Mahajj for the 23rd session of the Uthm Festival.<p>
+
+        <video controls width="560" height="315">
+            <source src="vid 2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+<p> This is also a film for the Program Edaran Bubur Lambuk, conducted by the Uthm Volunteer Club (KSU) in partnership with the Pusat Islam UTHM during the past fasting month.<p>
+
+        <video controls width="560" height="315">
+            <source src="vid 3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </main>
+
+    <footer>
+        <p>Copyright © 2024 Solehatul Madihah</p>
+    </footer>
+    
+    <script>
+        function toggleImageGallery() {
+            const gallery = document.getElementById('activitiesImageGallery');
+            if (gallery.style.display === 'none') {
+                gallery.style.display = 'block';
+            } else {
+                gallery.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
